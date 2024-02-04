@@ -1,0 +1,8 @@
+/.idea
+/vendor
+/build
+
+.php-cs-fixer.php
+phpunit.xml.dist
+composer.lock
+index.php
