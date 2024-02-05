@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Egusakov\\CharacteristicsGenerator\\": "src/"
+            "Eegusakov\\CharacteristicsGenerator\\": "src/"
         }
     },
     "autoload-dev": {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Egusakov\CharacteristicsGenerator\Rarity;
+namespace Eegusakov\CharacteristicsGenerator\Rarity;
 
-use Egusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
+use Eegusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
 
 abstract class Rarity
 {

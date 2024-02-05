@@ -2,9 +2,9 @@
 
 namespace CharacteristicsGenerator\Entities;
 
-use Egusakov\CharacteristicsGenerator\Entities\Characteristics;
-use Egusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
-use Egusakov\CharacteristicsGenerator\Rarity\Rarity;
+use Eegusakov\CharacteristicsGenerator\Entities\Characteristics;
+use Eegusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
+use Eegusakov\CharacteristicsGenerator\Rarity\Rarity;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 

@@ -2,7 +2,7 @@
 
 namespace CharacteristicsGenerator\Entities;
 
-use Egusakov\CharacteristicsGenerator\Entities\ValidRange;
+use Eegusakov\CharacteristicsGenerator\Entities\ValidRange;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;

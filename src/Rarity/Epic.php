@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Egusakov\CharacteristicsGenerator\Rarity;
+namespace Eegusakov\CharacteristicsGenerator\Rarity;
 
 /**
  * @codeCoverageIgnore

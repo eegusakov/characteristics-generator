@@ -1,4 +1,16 @@
-# Simple example
+# Characteristics Generator
+
+Characteristics Generator is a simple PHP library for generating character characteristics based on their rarity. It is ideal for game and application developers who need to create unique character attributes.
+
+## Installing
+
+The recommended way to install Characteristics Generator is via [Composer](http://getcomposer.org/).
+
+```bash
+composer require egusakov/characteristics-generator
+```
+
+## Simple example
 
 ```php
 use Egusakov\CharacteristicsGenerator\CharacteristicsFactory;
@@ -19,3 +31,7 @@ $factory = new CharacteristicsFactory(
 
 $characteristics = $factory->create();
 ```
+
+## License
+
+This project is licensed under the MIT license - see the [LICENSE](LICENSE.md) file for details

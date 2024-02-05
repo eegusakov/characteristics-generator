@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Egusakov\CharacteristicsGenerator;
+namespace Eegusakov\CharacteristicsGenerator;
 
 use DomainException;
-use Egusakov\CharacteristicsGenerator\Entities\Characteristics;
-use Egusakov\CharacteristicsGenerator\Rarity\Rarity;
+use Eegusakov\CharacteristicsGenerator\Entities\Characteristics;
+use Eegusakov\CharacteristicsGenerator\Rarity\Rarity;
 use InvalidArgumentException;
 
 final class CharacteristicsFactory
