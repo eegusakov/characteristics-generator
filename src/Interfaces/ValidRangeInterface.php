@@ -1,6 +1,6 @@
 <?php
 
-namespace Egusakov\CharacteristicsGenerator\Interfaces;
+namespace Eegusakov\CharacteristicsGenerator\Interfaces;
 
 /**
  * @codeCoverageIgnore

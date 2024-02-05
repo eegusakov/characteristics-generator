@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Egusakov\CharacteristicsGenerator\Entities;
+namespace Eegusakov\CharacteristicsGenerator\Entities;
 
-use Egusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
+use Eegusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
 use InvalidArgumentException;
 
 final readonly class ValidRange implements ValidRangeInterface

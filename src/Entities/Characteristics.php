@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Egusakov\CharacteristicsGenerator\Entities;
+namespace Eegusakov\CharacteristicsGenerator\Entities;
 
-use Egusakov\CharacteristicsGenerator\Rarity\Rarity;
+use Eegusakov\CharacteristicsGenerator\Rarity\Rarity;
 
 final class Characteristics
 {

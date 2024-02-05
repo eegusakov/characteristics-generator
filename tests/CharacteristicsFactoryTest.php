@@ -2,10 +2,10 @@
 
 namespace CharacteristicsGenerator;
 
-use Egusakov\CharacteristicsGenerator\CharacteristicsFactory;
-use Egusakov\CharacteristicsGenerator\Entities\Characteristics;
-use Egusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
-use Egusakov\CharacteristicsGenerator\Rarity\Rarity;
+use Eegusakov\CharacteristicsGenerator\CharacteristicsFactory;
+use Eegusakov\CharacteristicsGenerator\Entities\Characteristics;
+use Eegusakov\CharacteristicsGenerator\Interfaces\ValidRangeInterface;
+use Eegusakov\CharacteristicsGenerator\Rarity\Rarity;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\UsesClass;
