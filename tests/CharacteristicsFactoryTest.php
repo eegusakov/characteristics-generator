@@ -60,8 +60,8 @@ class CharacteristicsFactoryTest extends TestCase
             $this->greaterThanOrEqual(20),
             $this->lessThanOrEqual(50)
         ));
-        $this->assertIsInt($characteristics->protection);
-        $this->assertThat($characteristics->protection, $this->logicalAnd(
+        $this->assertIsInt($characteristics->defence);
+        $this->assertThat($characteristics->defence, $this->logicalAnd(
             $this->greaterThanOrEqual(20),
             $this->lessThanOrEqual(50)
         ));
