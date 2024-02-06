@@ -7,19 +7,19 @@ Characteristics Generator is a simple PHP library for generating character chara
 The recommended way to install Characteristics Generator is via [Composer](http://getcomposer.org/).
 
 ```bash
-composer require egusakov/characteristics-generator
+composer require Eegusakov/characteristics-generator
 ```
 
 ## Simple example
 
 ```php
-use Egusakov\CharacteristicsGenerator\CharacteristicsFactory;
-use Egusakov\CharacteristicsGenerator\Entities\ValidRange;
-use Egusakov\CharacteristicsGenerator\Rarity\Common;
-use Egusakov\CharacteristicsGenerator\Rarity\Epic;
-use Egusakov\CharacteristicsGenerator\Rarity\Legendary;
-use Egusakov\CharacteristicsGenerator\Rarity\Rare;
-use Egusakov\CharacteristicsGenerator\Rarity\Uncommon;
+use Eegusakov\CharacteristicsGenerator\CharacteristicsFactory;
+use Eegusakov\CharacteristicsGenerator\Entities\ValidRange;
+use Eegusakov\CharacteristicsGenerator\Rarity\Common;
+use Eegusakov\CharacteristicsGenerator\Rarity\Epic;
+use Eegusakov\CharacteristicsGenerator\Rarity\Legendary;
+use Eegusakov\CharacteristicsGenerator\Rarity\Rare;
+use Eegusakov\CharacteristicsGenerator\Rarity\Uncommon;
 
 $factory = new CharacteristicsFactory(
     new Common(50, 3, new ValidRange(20, 40)),
