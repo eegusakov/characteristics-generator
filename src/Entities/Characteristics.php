@@ -8,16 +8,16 @@ use Eegusakov\CharacteristicsGenerator\Rarity\Rarity;
 
 final class Characteristics
 {
-    public string $rarity; // @todo Понять какой должен быть тип
+    public string $rarity;
     public int $strength;
-    public int $protection;
+    public int $defence;
     public int $agility;
     public int $health;
     public int $energy;
 
     public function generate(Rarity $rarity): void
     {
-        $this->rarity = get_class($rarity);
+        $this->rarity = basename(str_replace('\\', '/', get_class($rarity)));
 
         $limit = $rarity->getAllowedSumCharacteristics();
         $validRange = $rarity->getValidRangeCharacteristics();
@@ -38,7 +38,7 @@ final class Characteristics
         shuffle($characteristics);
 
         $this->strength = $characteristics[0];
-        $this->protection = $characteristics[1];
+        $this->defence = $characteristics[1];
 
         $this->agility = $rarity->getAgility();
         $this->energy = $rarity->getEnergy();
