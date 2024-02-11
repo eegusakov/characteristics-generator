@@ -2,6 +2,14 @@
 
 Characteristics Generator is a simple PHP library for generating character characteristics based on their rarity. It is ideal for game and application developers who need to create unique character attributes.
 
+Basic features available out of the box:
+1. Health
+2. Power
+3. Defense
+4. Agility
+5. Rarity
+6. Energy
+
 ## Installing
 
 The recommended way to install Characteristics Generator is via [Composer](http://getcomposer.org/).
